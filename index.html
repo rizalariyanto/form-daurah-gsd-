@@ -41,7 +41,7 @@
 <body>
 <div class="wrap">
   <div class="header">
-    <div class="logo-box" id="logoBox"><img id="logo" src="logo.png" alt="Logo Wahdah Islamiyah"></div>
+    <div class="logo-box" id="logoBox"><img id="logo" src="logo-wahdah-png.png" alt="Logo Wahdah Islamiyah"></div>
     <div class="kecil">Form Pendaftaran</div>
     <h1>Daurah Pembina<br>Gerakan Sejuta Dai (GSD)</h1>
     <p>Silakan lengkapi data berikut</p>
@@ -110,7 +110,7 @@
   const btn = document.getElementById('btn');
   const pesan = document.getElementById('pesan');
 
-  // Tampilkan logo hanya jika file logo.png ada
+  // Tampilkan logo hanya jika file logo-wahdah-png.png berhasil dimuat
   const logo = document.getElementById('logo');
   logo.onload = function () { document.getElementById('logoBox').classList.add('show'); };
   if (logo.complete && logo.naturalWidth > 0) logo.onload();
